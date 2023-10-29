@@ -1,0 +1,142 @@
+/* Style for the default container */
+.default-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  /* Style for StakeModal elements */
+  .StakeModal {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for section title block */
+  .section-title-block {
+    margin: 20px 0;
+  }
+  
+  /* Style for section title icon */
+  .section-title-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #0074d9;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Style for Page title */
+  .Page-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for Page description */
+  .Page-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style for App-card elements */
+  .App-card {
+    
+    padding: 1.5rem 1.5rem 1.86rem;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Style for App-card-title */
+  .App-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for App-card-divider */
+  .App-card-divider {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  /* Style for label in App-card-row */
+  .label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Style for Tooltip elements */
+  .Tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .Tooltip-handle {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  /* Show tooltip on hover */
+  .Tooltip:hover .Tooltip-handle {
+    display: block;
+  }
+  
+  /* Style for App-button-option */
+  .App-button-option {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style for Connect Wallet button */
+  .App-button-option.Connect {
+    background-color: #35ac19;
+  }
+  
+  /* Style for Buy/Sell buttons */
+  .App-button-option.Buy {
+    background-color: #e65353;
+  }
+
+
+  a.App-button-option, button.App-button-option {
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 36px;
+    display: inline-flex!important;
+    align-items: center;
+    border: none;
+    background: #3eb489;
+}
+.App-card-option {
+    margin: 0.62rem;
+}

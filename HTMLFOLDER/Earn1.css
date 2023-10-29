@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.big-cont{
+    display: grid;
+  grid-template-columns: 80px 80px ;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+    
+}
+.column {
+   padding: 1rem;
+   border: 1px solid whitesmoke;
+display: flex;
+justify-content: space-between;
+  }
+  .newCol{
+   
+    padding: 1rem;
+    border: 1px solid whitesmoke;
+ height: 28px;
+  }
+  #btn{
+    background-color: #3eb489;
+    
+  }
+
+ul li {
+    list-style: none;
+    padding: 5px;
+}
